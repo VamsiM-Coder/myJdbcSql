@@ -1,15 +1,15 @@
 # Java JDBC MySQL – Employee CRUD Example
 
-    This repository shows how to build a simple Java application that connects to a MySQL database and performs CRUD operations on an `employee` table using JDBC.
+    This repository shows how to build a simple Java application that connects to a MySQL database and performs CRUD operations on an `student` table using JDBC.
 
 # Features
 
 > Connect Java application to MySQL using JDBC
 
-> Insert new employees
+> Insert new students
 
-> View employee records
+> View students records
 
-> Update employee details
+> Update students details
 
-> Delete employee records
+> Delete student records
