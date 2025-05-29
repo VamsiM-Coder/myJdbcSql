@@ -1,3 +1,16 @@
+
+//JDBC Driver
+//1. Import necessary packages
+//2. Load and register the driver (.jar) file
+//3. Create a Connection by using util class (DriverManager) url,uname,pass;
+//4. Create a statement by using conn object
+//5. Execute a statement
+//6. Closing the driver
+// we can use parent exception for all these child exception to handle all the cases by throws Exception
+// try and catch or we can use throws ClassNotFound exception
+
+
+
 import java.sql.*;
 import java.time.LocalDate;
 
