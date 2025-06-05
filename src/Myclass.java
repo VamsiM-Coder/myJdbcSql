@@ -103,7 +103,8 @@ public class Myclass {
 }
 
 //
-//For insert/update/delete ➔ use executeUpdate()
+//For insert/update/delete(single row) ➔ use executeUpdate()
+//(Multiple row) -> use executeBatch()
 //
 //For select ➔ use executeQuery()
 //
