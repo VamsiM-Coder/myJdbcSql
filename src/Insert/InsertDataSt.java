@@ -40,3 +40,15 @@ public class InsertDataSt {
 
     }
 }
+
+//Problem with statement when the user enters data manually
+//1. With Using double quotes like below it is confusing
+
+//        String query = "INSERT INTO student VALUES (" +
+//                s_id + ", '" +
+//                s_name + "', '" +
+//                s_age + "', '" +
+//                date + "')";
+
+//2. It can lead to SQL Injection in future, leaking the data from database
+//3. To improve performance if we want to write it's not possible.

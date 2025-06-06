@@ -9,6 +9,8 @@
 // we can use parent exception for all these child exception to handle all the cases by throws Exception
 // try and catch or we can use throws ClassNotFound exception
 
+//Connection creates a session with database and it provides create statement, manage transactions and handle metadata.
+
 
 
 import java.sql.*;
@@ -108,7 +110,7 @@ public class Myclass {
 //
 //For select ➔ use executeQuery()
 //
-//Avoid execute() unless you specifically need it.
+//Avoid execute() unless you specifically need it. It is used for any sql commands it returns boolean(true if ResultSet returned).
 
 
 //int rowsAffected = stmt.executeUpdate();
