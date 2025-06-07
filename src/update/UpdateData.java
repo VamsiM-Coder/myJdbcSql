@@ -38,8 +38,8 @@ public class UpdateData {
             //STEP - 5
 
             //Single Valued insert
-//            int rows = st.executeUpdate();
-//             System.out.println("Rows Updated: " + rows);
+            int rows = st.executeUpdate();
+            System.out.println("Rows Updated: " + rows);
 
             //MultiValued insert
             int [] rows = st.executeBatch();
