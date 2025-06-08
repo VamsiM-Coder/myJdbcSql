@@ -34,8 +34,8 @@ public class InsertData_PSt {
             //STEP - 5
 
             //Single Valued insert
-            //int rows = st.executeUpdate();
-            // System.out.println("Rows Inserted: " + rows);
+            int rows = st.executeUpdate();
+            System.out.println("Rows Inserted: " + rows);
 
             //MultiValued insert
             int [] rows = st.executeBatch();
